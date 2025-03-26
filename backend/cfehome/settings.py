@@ -31,12 +31,18 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    # Installed Apps
     'api',
     'products',
     'search',
+    'articles',
+    # Frameworks
     'rest_framework',
     'rest_framework.authtoken',
+    'rest_framework_simplejwt',
+    # Third-party apps
     'algoliasearch_django',
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -131,7 +137,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES" : [
         "rest_framework.authentication.SessionAuthentication",
-        "api.authentication.TokenAuthentication"
+        "api.authentication.TokenAuthentication",
+        "rest_framework_simplejwt.authentication.JWTAuthentication",
     ],
     "DEFAULT_PERMISSION_CLASSES" : [
         "rest_framework.permissions.IsAuthenticatedOrReadOnly"
