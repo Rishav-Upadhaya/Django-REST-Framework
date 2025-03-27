@@ -1,6 +1,6 @@
 # Django REST API Learnings  
 **Advanced Concepts & Practical Implementations**  
-*A learning path guided by [Coding for Entrepreneurs (CFE)](https://www.youtube.com/c/CodingForEntrepreneurs)*  
+*A learning path guided by [Coding for Entrepreneurs (CFE)](https://www.youtube.com/watch?v=c708Nf0cHrs)*  
 
 ---
 
@@ -39,7 +39,7 @@ Explore my implementations of these concepts in dedicated repositories:
 - **Algolia-Powered Search Endpoints**  
 - **Custom CRUD APIs with Dynamic Permissions**  
 
-🔗 [GitHub Profile](https://github.com/yourusername)  
+🔗 [GitHub Profile](https://github.com/rishav-upadhaya/)  
 
 ---
 
@@ -55,8 +55,8 @@ I break down my learning process, challenges, and solutions in detailed LinkedIn
 ### Run These Projects Locally  
 1. **Clone the Repository**  
    ```bash  
-   git clone https://github.com/yourusername/django-rest-api-projects.git  
-   cd django-rest-api-projects  
+   git clone https://github.com/rishav-upadhaya/Django-REST-Framework.git  
+   cd Django-REST-Framework  
    ```  
 
 2. **Install Dependencies**  
