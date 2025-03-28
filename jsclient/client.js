@@ -24,11 +24,13 @@ function handleLogin(event) {
       console.log(response.status);
       return response.json();
     })
-    .then((data) => {
-      console.log("data", data);
-      // handle success, maybe store token, etc.
-    })
+    .then(handleAuthData)
     .catch((err) => {
       console.log("err", err);
     });
+}
+
+function handleAuthData(authData) {
+  localStorage.setItem("access", authData.access);
+  localStorage.setItem("refresh", authData.refresh);
 }
