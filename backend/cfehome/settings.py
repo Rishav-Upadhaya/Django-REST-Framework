@@ -160,8 +160,8 @@ REST_FRAMEWORK = {
 }
 
 ALGOLIA = {
-    'APPLICATION_ID': '<Your Algolia ID>',
-    'API_KEY': '<Your ALgolia API Key>',
+    'APPLICATION_ID': 'AK967P1YKC',
+    'API_KEY': 'da48ccd56faf08f687d4e25ff36e5103',
     'INDEX_PREFIX': 'cfe',  # or 'prod' for production
     'USE_SYNC': True
 }
