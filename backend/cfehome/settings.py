@@ -37,7 +37,9 @@ INSTALLED_APPS = [
     'products',
     'search',
     'articles',
+    'chat',
     # Frameworks
+    'channels',
     'rest_framework',
     'rest_framework.authtoken',
     'rest_framework_simplejwt',
@@ -51,6 +53,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
+
+ASGI_APPLICATION = 'cfehome.asgi.application'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
